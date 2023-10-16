@@ -101,7 +101,7 @@ agent = initialize_agent(
 
 # 4. Use streamlit to create a web app
 def main():
-    st.set_page_config(page_title="AI Reseacher", page_icon=":fire:")
+    st.set_page_config(page_title="AI Reseacher")
 
     st.header("Find answer faster with AI")
     query = st.text_input("Search for:")
